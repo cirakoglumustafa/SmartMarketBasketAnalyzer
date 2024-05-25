@@ -1,6 +1,5 @@
-Bu proje, bir CSV dosyasını Excel formatına dönüştürme ve isteğe bağlı olarak Türkçe'ye çevirme yeteneğine sahiptir. Ardından, bu Excel dosyasından veri okunur ve alışveriş sepetine benzer bir formata dönüştürülür. Daha sonra, bu veri üzerinde Apriori algoritması kullanılarak sık görülen öğe setleri analiz edilir ve ilişkisel bağlantılar yakalanır. Örneğin, bir müşterinin elma aldığında %85 olasılıkla muz da alacağı gibi ilişkisel kurallar tespit edilir.
+This project has the ability to convert a CSV file to Excel format and optionally translate it to Turkish. Then, data is read from this Excel file and converted to a format similar to a shopping cart. Subsequently, frequent item sets are analyzed using the Apriori algorithm on this data, and relational connections are captured. For example, associative rules such as when a customer buys apples, there's an 85% chance they'll also buy bananas are identified.
 
-Son olarak, elde edilen bu analiz sonuçları Excel dosyasına kaydedilir. Bu, kullanıcıların veri analizini daha kolay bir şekilde takip etmelerini sağlar ve sonuçların daha sonra incelenmesine imkan tanır.
+Finally, these analysis results are saved to an Excel file. This allows users to easily track data analysis and enables the examination of results later.
 
-Proje, alışveriş verilerinin analizi ve müşteri davranışlarının anlaşılması gibi alanlarda kullanılabilir. Bu analiz sonuçlarına dayanarak, işletmeler pazarlama stratejilerini belirleyebilir ve ürün yerleşimini optimize edebilirler. Ayrıca, müşteri memnuniyetini artırmak ve geliri artırmak için daha bilinçli kararlar alabilirler.
-
+The project can be used in areas such as the analysis of shopping data and understanding customer behavior. Based on these analysis results, businesses can determine marketing strategies and optimize product placements. Additionally, they can make more informed decisions to increase customer satisfaction and revenue.
